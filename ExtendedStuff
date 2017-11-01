@@ -1,0 +1,48 @@
+package redpineForest;
+
+public class ExtendedStuff {
+
+	public static void main(String[] args) {
+		
+		
+			System.out.println("Turtles are great builders, very good at both the gathering aspect of it and the actual building");
+			System.out.println("however, they are not great fighters, sure they have defense, but no offensive skill whatsoever, so they dont have very good hunting or defending");
+			System.out.println("Mining: 7");
+			System.out.println("Cutting: 8");
+			System.out.println("Sap collecting: 8");
+			System.out.println("Building: 7");
+			System.out.println("Hunting: 3");
+			System.out.println("Defending: 4");
+			System.out.println("");
+			System.out.println("Groundhogs are excelent at doing jobs out of camp, going out and comming back with more than they were expected to get");
+			System.out.println("Defending and building the base though, dont count on them to be too good in that aspect");
+			System.out.println("Mining: 8");
+			System.out.println("Cutting: 7");
+			System.out.println("Sap collecting: 7");
+			System.out.println("Building: 4");
+			System.out.println("Hunting: 6");
+			System.out.println("Defending: 3");
+			System.out.println("");
+			System.out.println("Meerkats are great at working in a pack in order to effectively hunt and be hunted (defend)");
+			System.out.println("Sadly, any other job is at most only average");
+			System.out.println("Mining: 5");
+			System.out.println("Cutting: 4");
+			System.out.println("Sap collecting: 4");
+			System.out.println("Building: 6");
+			System.out.println("Hunting: 9");
+			System.out.println("Defending: 9");
+		
+			System.out.println("Turtles: Turtles have always been known to be very accepting towards former and subsequent, it was said that when the first subsequents first appeared");
+			System.out.println("Queen Timble of Shellmound went out to invite them into her castle, Shellmound is now known as one of the safest (if not the safest) and friendliest castles in the area because of the friendliness");
+			System.out.println("between formers and subsequents there, most of the formers (not all but most) AOFSG (Acceptence Of the Former and Subsequents Group) are turtles");
+			System.out.println("");
+			System.out.println("Groundhogs: Groundhogs have always been known to be freelancers, wandering from town to town and doing jobs for people in order to stay the night, and maybe get a meal or two.");
+			System.out.println("Though that may sound bad, Groundhogs are known to be very chivalrous, often putting themselves in harms way to stop fights from brewing");
+			System.out.println("");
+			System.out.println("Meerkats: Meerkats are known to be compared to the subsequents imps, they are very playfull, but sometimes a bit too much, theyve been known to pull pranks");
+			System.out.println("that have not ended with everyone laughing; however, Meerkats are one of the best examples of the code written on wintersprings walls that says 'Alone we are so small, but together we can be bigger than the whole of the shore'");
+			System.out.println("");
+
+	}
+
+}
