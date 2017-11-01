@@ -1,0 +1,117 @@
+package redpineForest;
+
+public class Creature {
+
+	private int mining;
+	private int cutting;
+	private int Scollecting;
+	private int hunting;
+	private int building;
+	private int defending;
+	
+	public int getDefending() {
+		return defending;
+	}
+	public void setDefending(int defending) {
+		this.defending = defending;
+	}
+
+	private int Mdays;
+	
+	
+	public int getMdays() {
+		return Mdays;
+	}
+	public void setMdays(int Mdays) {
+		this.Mdays = Mdays;
+	}
+
+	String Createname;
+	
+	
+	public String getName() {
+		return Createname;
+	}
+	public void setName(String name) {
+		this.Createname = name;
+	}
+	Creature(String name){
+		//all of these are 2-6
+		int mining = (int) (1 + Math.random() * (1 * 2 + 5));
+		this.mining = mining;
+		int cutting = (int) (1 + Math.random() * (1 * 2 + 5));
+		this.cutting = cutting;
+		int Scollecting = (int) (1 + Math.random() * (1 * 2 + 5));
+		this.Scollecting = Scollecting;
+		int hunting = (int) (1 + Math.random() * (1 * 2 + 5));
+		this.hunting = hunting;
+		int building = (int) (1 + Math.random() * (1 * 2 + 5));
+		this.building = building;
+		int defending = (int) (1 + Math.random() * (1 * 2 + 5));
+		this.defending = defending;
+	}
+		
+		
+		public String GetCreatureName(){
+			return Createname;
+		}
+		
+		
+		
+	public void name(){
+		System.out.print(Createname);
+	}
+	public int getMining() {
+		return mining;
+	}
+	public void setMining(int mining) {
+		this.mining = mining;
+	}
+	public int getCutting() {
+		return cutting;
+	}
+	public void setCutting(int cutting) {
+		this.cutting = cutting;
+	}
+	public int getScollecting() {
+		return Scollecting;
+	}
+	public void setScollecting(int scollecting) {
+		Scollecting = scollecting;
+	}
+	public int getHunting() {
+		return hunting;
+	}
+	public void setHunting(int hunting) {
+		this.hunting = hunting;
+	}
+	public int getBuilding() {
+		return building;
+	}
+	public void setBuilding(int building) {
+		this.building = building;
+	}
+
+	
+	
+	public int CreatureMission(int MMdays, int days){	
+		
+		int Mdays = this.Mdays;
+					int stuff = (int) (Mdays + Math.random() * 2 * (days + 1) + Mdays + 6);
+					
+				
+				if (days < 3){
+					stuff = 0;
+					System.out.println("there was not enough time to go out and get the resources");	
+					setMdays(0);
+				}
+				if (days > 7){
+					System.out.println("It took too long to get back, the creature had to drop the resources (too heavy!)");
+					stuff = 0;
+					setMdays(0);
+				}
+					
+				
+					return stuff;
+			}
+}
